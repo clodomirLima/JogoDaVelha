@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:enabled="false"
+            android:onClick="clickQuadrado"
+            android:tag="quadrado1" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:enabled="false"
+            android:onClick="clickQuadrado"
+            android:tag="quadrado2" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:enabled="false"
+            android:onClick="clickQuadrado"
+            android:tag="quadrado3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:enabled="false"
+            android:onClick="clickQuadrado"
+            android:tag="quadrado4" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:enabled="false"
+            android:onClick="clickQuadrado"
+            android:tag="quadrado5" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:enabled="false"
+            android:onClick="clickQuadrado"
+            android:tag="quadrado6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:enabled="false"
+            android:onClick="clickQuadrado"
+            android:tag="quadrado7" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:enabled="false"
+            android:onClick="clickQuadrado"
+            android:tag="quadrado8" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:enabled="false"
+            android:onClick="clickQuadrado"
+            android:tag="quadrado9" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rbX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X" />
+
+        <RadioButton
+            android:id="@+id/rbO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="newGame"
+        android:text="New Game" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="@string/joe" />
+
+</LinearLayout>
